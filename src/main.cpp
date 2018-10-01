@@ -2,9 +2,9 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char *mqtt_server = "fw.knatofs.se";
-const char *ssid = "GetLost";
-const char *password = "12bananer";
+const char *mqtt_server = "simeserver";
+const char *ssid = "****";
+const char *password = "****";
 const int wphDivider = 3600000; // 1000 blinks / kw
 const unsigned long debounceDelay = 250; 
 
